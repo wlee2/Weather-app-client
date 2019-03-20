@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="QStarter_2.jnlp">
+  <information>
+    <title>QStarter_2</title>
+    <vendor>Wooseok</vendor>
+    <description>QStarter</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="QStarter_2.jar" size="36428" download="eager" />
+    <jar href="libs/controlsfx-8.40.14.jar" size="1215643" download="eager" />
+    <jar href="libs/json-20180130.jar" size="62116" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="application.Main"  name="QStarter" />
+  <update check="background"/>
+</jnlp>

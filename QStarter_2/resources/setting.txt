@@ -1,0 +1,2 @@
+option=1
+otherAddress=0.0.0.0
